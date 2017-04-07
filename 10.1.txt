@@ -1,0 +1,21 @@
+1)Needs for Hive:
+    it is used to  for querying data stored in the Hadoop Distributed Filesystem (HDFS) in sql dialect.Since Most data
+warehouse applications are implemented using relational databases that use SQL as the query language. Hive lowers the 
+barrier for moving these applications to Hadoop. People who know SQL can learn Hive easily.
+==========================================================================================================================
+2)Is Hive suitable to be used for OLTP systems? Explain in brief:
+No Hive does not provide insert and update at row level as it generally deals with large chumks of data. So it is not suitable for OLTP system.
+==============================================================================================================================================
+3)What is a metastore in Hive?:
+                               The Hive metastore service stores the metadata for Hive tables and partitions in a relational database
+                           
+                          
+============================================================================================================================================
+4)Can we run unix shell commands from hive? Give 5 examples and share the screenshot: yes it is possible to run unix shell commands
+form hive
+=============================================================================================================================================
+5)Hive can process any type of data formats? Explain in brief:
+                                              Yes, Hive uses the SerDe interface for IO operations. Different SerDe interfaces can read and 
+write any type of data. If normal directly process the data where as different type of data is in the Hadoop, Hive use different SerDe interface 
+to process such data.
+                                            
